@@ -423,3 +423,421 @@ proxies:
     cipher: aes-256-gcm
     password: "LPdNj6ZpzF6GQ4NC7sYyXey3" 
 
+proxies: 
+  - name: "193.29.106.195:49126"
+    type: ss 
+    server: 193.29.106.195
+    port: 49126
+    cipher: aes-256-gcm
+    password: "wrCaGtrUbzeRqQLdc8Kmk3Nd" 
+
+  - name: "195.206.169.203:31572"
+    type: ss 
+    server: 195.206.169.203
+    port: 31572
+    cipher: aes-256-gcm
+    password: "n8w4StnbVD9dmXYn4Ajt87EA" 
+
+  - name: "-|西班牙"
+    type: vmess 
+    server: 5.183.103.196
+    port: 57801
+    uuid: 337ae850-ba0b-4647-e9b7-a222dc09b0dc 
+    alterId: 1 
+    cipher: auto
+
+  - name: "207.244.67.149:33998"
+    type: ss 
+    server: 207.244.67.149
+    port: 33998
+    cipher: aes-256-gcm
+    password: "NHwQTPLCfaTMSqTnU3mjcSxe" 
+
+  - name: "188.92.78.145:40093"
+    type: ss 
+    server: 188.92.78.145
+    port: 40093
+    cipher: aes-256-gcm
+    password: "x23Z4LGkGDkThZ9Kaz4DURQp" 
+
+  - name: "🇺🇸 US_44"
+    type: trojan 
+    server: 32vus.ednovas.me
+    port: 443#%F0%9F%87%BA%F0%9F%87%B8%20US_44
+    password: "4806bfec-c8ca-4688-b513-f6214ea52e58" 
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: true
+
+  - name: "-"
+    type: vmess 
+    server: 104.24.189.254
+    port: 443
+    uuid: 65f11be5-ac71-4f0c-874b-d93c610c66ef 
+    alterId: 1 
+    cipher: auto
+    tls: true 
+    ws-path: 
+    network: ws
+    ws-headers:
+      Host: us-a.freeproxy1.workers.dev
+
+  - name: "68.71.244.208:49126"
+    type: ss 
+    server: 68.71.244.208
+    port: 49126
+    cipher: aes-256-gcm
+    password: "wrCaGtrUbzeRqQLdc8Kmk3Nd" 
+
+  - name: "🇦🇺 AU_06"
+    type: vmess 
+    server: 1.0.0.123
+    port: 80
+    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0 
+    alterId: 1 
+    cipher: auto
+    tls: false 
+    ws-path: /s/ff5c0fb.fm.apple.com:30513
+    network: ws
+    ws-headers:
+      Host: trump.moss.network
+
+  - name: "🇸🇬 SG_33"
+    type: trojan 
+    server: sg1-trojan.bonds.id
+    port: 443#%F0%9F%87%B8%F0%9F%87%AC%20SG_33
+    password: "5c5ceb40-902b-11eb-945a-1239d0255272" 
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: true
+
+  - name: "🇺🇸 US_63"
+    type: vmess 
+    server: 172.67.37.166
+    port: 443
+    uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94 
+    alterId: 1 
+    cipher: auto
+    tls: true 
+    ws-path: y284
+    network: ws
+    ws-headers:
+      Host: cooa.xyz
+
+  - name: "🇺🇸 US_71"
+    type: trojan 
+    server: us-trojan.bonds.id
+    port: 443#%F0%9F%87%BA%F0%9F%87%B8%20US_71
+    password: "38239dd0-902b-11eb-afc1-1239d0255272" 
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: true
+
+  - name: "🇺🇸 US_3885"
+    type: vmess 
+    server: 23.224.164.100
+    port: 443
+    uuid: d25a6583-52ca-496f-87ae-f2275b3b0ddd 
+    alterId: 1 
+    cipher: auto
+    tls: true 
+    ws-path: path
+    network: ws
+
+  - name: "104.200.131.245:31944"
+    type: ss 
+    server: 104.200.131.245
+    port: 31944
+    cipher: aes-256-gcm
+    password: "aYNeKDMzYQYw4KbUbJA8Wszq" 
+
+  - name: "🇺🇸US_4945"
+    type: vmess 
+    server: v2us02.isxa.top
+    port: 443
+    uuid: b14c1a1a-8d6a-4d76-8145-5dcd73d9176e 
+    alterId: 1 
+    cipher: auto
+    tls: true 
+    ws-path: ray
+    network: ws
+
+  - name: "🇺🇸US_4960"
+    type: trojan 
+    server: virmachzhi.l5420.ml
+    port: 443#%F0%9F%87%BA%F0%9F%87%B8US_4960
+    password: "d6c45c94-1ca7-4e47-925c-ffa26c8083c1" 
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: true
+
+  - name: "🇺🇸US_4986"
+    type: trojan 
+    server: us-trojan.bonds.id
+    port: 443#%F0%9F%87%BA%F0%9F%87%B8US_4986
+    password: "38239dd0-902b-11eb-afc1-1239d0255272" 
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: true
+
+  - name: "🇺🇸US_5020"
+    type: trojan 
+    server: tuoku8.cf
+    port: 443#%F0%9F%87%BA%F0%9F%87%B8US_5020
+    password: "dsfe4" 
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: true
+
+  - name: "194.110.115.85:31572"
+    type: ss 
+    server: 194.110.115.85
+    port: 31572
+    cipher: aes-256-gcm
+    password: "n8w4StnbVD9dmXYn4Ajt87EA" 
+
+  - name: "🇸🇬SG_2114"
+    type: trojan 
+    server: sg3-trojan.bonds.id
+    port: 443#%F0%9F%87%B8%F0%9F%87%ACSG_2114
+    password: "97fdf760-7bbf-11eb-8e14-1239d0255272" 
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: true
+
+  - name: "Relay_🇸🇬SG-🇸🇬SG_2115"
+    type: trojan 
+    server: sg1-trojan.bonds.id
+    port: 443#Relay_%F0%9F%87%B8%F0%9F%87%ACSG-%F0%9F%87%B8%F0%9F%87%ACSG_2115
+    password: "5c5ceb40-902b-11eb-945a-1239d0255272" 
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: true
+
+  - name: "🇸🇬SG_2116"
+    type: trojan 
+    server: sg3-trojan.bonds.id
+    port: 443#%F0%9F%87%B8%F0%9F%87%ACSG_2116
+    password: "4c7985e0-79e8-11eb-b8d3-1239d0255272" 
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: true
+
+  - name: "Relay_🇹🇼TW-🇹🇼TW_2196"
+    type: vmess 
+    server: ff5c0fb.rb.cloudflare.systems
+    port: 443
+    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0 
+    alterId: 1 
+    cipher: auto
+    tls: true 
+    ws-path: s
+    network: ws
+    ws-headers:
+      Host: ff5c0fb.fm.icloud.com:30513
+
+  - name: "Relay_🇹🇼TW-🇹🇼TW_2197"
+    type: vmess 
+    server: c27821f.rb.cloudflare.systems
+    port: 80
+    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0 
+    alterId: 1 
+    cipher: auto
+    tls: false 
+    ws-path: /s/c27821f.fm.icloud.com:16708
+    network: ws
+    ws-headers:
+      Host: c27821f.rb.cloudflare.systems
+
+  - name: "🇹🇼TW_2199"
+    type: vmess 
+    server: 211.72.35.153
+    port: 443
+    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0 
+    alterId: 1 
+    cipher: auto
+    tls: true 
+    ws-path: s
+    network: ws
+    ws-headers:
+      Host: 211.72.35.153
+
+  - name: "Relay_🇺🇸US-🇩🇪DE_2943"
+    type: vmess 
+    server: 104.18.7.138
+    port: 443
+    uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2 
+    alterId: 1 
+    cipher: auto
+    tls: true 
+    ws-path: 
+    network: ws
+    ws-headers:
+      Host: cdnde.irteyz.today
+
+  - name: "Relay_🇺🇸US-🇺🇸US_2945"
+    type: vmess 
+    server: 104.19.80.46
+    port: 8080
+    uuid: 657f7981-0138-4c99-9199-51f62002d8e5 
+    alterId: 1 
+    cipher: auto
+    tls: false 
+    ws-path: /1234
+    network: ws
+    ws-headers:
+      Host: 3.ioqr.cn
+
+  - name: "Relay_🇺🇸US-🇷🇺RU_2955"
+    type: vmess 
+    server: 172.67.150.130
+    port: 80
+    uuid: 3d31728e-064d-42b8-b945-f79c008f73fc 
+    alterId: 1 
+    cipher: auto
+    tls: false 
+    ws-path: /
+    network: ws
+    ws-headers:
+      Host: free-russian01-cdn.xiaohouzi.club
+
+  - name: "Relay_🇺🇸US-🇺🇸US_2958"
+    type: vmess 
+    server: 23.225.165.242
+    port: 443
+    uuid: 34f8dd2e-55f0-4d95-bfda-714f50b6c0e1 
+    alterId: 1 
+    cipher: auto
+    tls: true 
+    ws-path: path
+    network: ws
+
+  - name: "Relay_🇺🇸US-🇯🇵JP_2961"
+    type: vmess 
+    server: c-jp-dv1.ooxc.cc
+    port: 443
+    uuid: f299184b-19e0-41a4-9b4b-65fa8f0e691c 
+    alterId: 1 
+    cipher: auto
+    tls: true 
+    ws-path: jj
+    network: ws
+    ws-headers:
+      Host: c-jp-dv1.ooxc.cc
+
+  - name: "Relay_🇺🇸US-🇺🇸US_2962"
+    type: vmess 
+    server: c-us3.ooxc.cc
+    port: 443
+    uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda 
+    alterId: 1 
+    cipher: auto
+    tls: true 
+    ws-path: jj
+    network: ws
+    ws-headers:
+      Host: c-us3.ooxc.cc
+
+  - name: "Relay_🇺🇸US-🇩🇪DE_2964"
+    type: vmess 
+    server: cdnde.irteyz.today
+    port: 443
+    uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2 
+    alterId: 1 
+    cipher: auto
+    tls: true 
+    ws-path: 
+    network: ws
+    ws-headers:
+      Host: cdnde.irteyz.today
+
+  - name: "Relay_🇺🇸US-🇺🇸US_2967"
+    type: vmess 
+    server: cc.hciahciphcie.club
+    port: 443
+    uuid: 219be2f9-573d-4507-9e9b-74b385ba1c9c 
+    alterId: 1 
+    cipher: auto
+    tls: true 
+    ws-path: 0574a110e138dd
+    network: ws
+
+  - name: "🇺🇸US_2973"
+    type: trojan 
+    server: tuoku8.cf
+    port: 443#%F0%9F%87%BA%F0%9F%87%B8US_2973
+    password: "sdf4dfw" 
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: true
+
+  - name: "🇺🇸US_2974"
+    type: trojan 
+    server: tuoku8.cf
+    port: 443#%F0%9F%87%BA%F0%9F%87%B8US_2974
+    password: "dsfe4" 
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: true
+
+  - name: "🇺🇸US_2975"
+    type: trojan 
+    server: tuoku8.cf
+    port: 443#%F0%9F%87%BA%F0%9F%87%B8US_2975
+    password: "wq12a" 
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: true
+
+  - name: "Relay_🇺🇸US-🇺🇸US_3005"
+    type: trojan 
+    server: us-trojan.bonds.id
+    port: 443#Relay_%F0%9F%87%BA%F0%9F%87%B8US-%F0%9F%87%BA%F0%9F%87%B8US_3005
+    password: "38239dd0-902b-11eb-afc1-1239d0255272" 
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: true
+
+  - name: "Relay_🇺🇸US-🇺🇸US_3007"
+    type: trojan 
+    server: virmachzhi.l5420.ml
+    port: 443#Relay_%F0%9F%87%BA%F0%9F%87%B8US-%F0%9F%87%BA%F0%9F%87%B8US_3007
+    password: "d6c45c94-1ca7-4e47-925c-ffa26c8083c1" 
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: true
+
+  - name: "188.92.78.145:35294"
+    type: ss 
+    server: 188.92.78.145
+    port: 35294
+    cipher: aes-256-gcm
+    password: "J9Y2ncrdPEC38gwydNFFGBna" 
+
+  - name: "143.244.57.99:39772"
+    type: ss 
+    server: 143.244.57.99
+    port: 39772
+    cipher: aes-256-gcm
+    password: "CUndSZnYsPKcu6Kj8THVMBHD" 
+
+  - name: "143.244.57.99:397721"
+    type: ss 
+    server: 143.244.57.99
+    port: 39772
+    cipher: aes-256-gcm
+    password: "CUndSZnYsPKcu6Kj8THVMBHD" 
