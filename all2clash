@@ -1,0 +1,127 @@
+proxies: 
+  - name: "ss.uk.sshmax.net:57478"
+    type: ss 
+    server: ss.uk.sshmax.net
+    port: 57478
+    cipher: chacha20-ietf-poly1305
+    password: "HgVDIN05O6bH" 
+
+  - name: "ss.us.sshmax.net:57478"
+    type: ss 
+    server: ss.us.sshmax.net
+    port: 57478
+    cipher: chacha20-ietf-poly1305
+    password: "syCiJl3nb8OD" 
+
+  - name: "ss.id.sshmax.net:57478"
+    type: ss 
+    server: ss.id.sshmax.net
+    port: 57478
+    cipher: chacha20-ietf-poly1305
+    password: "ku382YXK8cLE" 
+
+  - name: "137.59.52.107:40093"
+    type: ss 
+    server: 137.59.52.107
+    port: 40093
+    cipher: aes-256-gcm
+    password: "x23Z4LGkGDkThZ9Kaz4DURQp" 
+
+  - name: "GB_24"
+    type: vmess 
+    server: 5.183.101.200
+    port: 35374
+    uuid: 62836733-0014-4014-e0e3-908eea2f3063 
+    alterId: 1 
+    cipher: auto
+
+  - name: "195.181.171.241:40093"
+    type: ss 
+    server: 195.181.171.241
+    port: 40093
+    cipher: aes-256-gcm
+    password: "x23Z4LGkGDkThZ9Kaz4DURQp" 
+
+  - name: "193.29.106.195:49126"
+    type: ss 
+    server: 193.29.106.195
+    port: 49126
+    cipher: aes-256-gcm
+    password: "wrCaGtrUbzeRqQLdc8Kmk3Nd" 
+
+  - name: "185.124.240.149:39772"
+    type: ss 
+    server: 185.124.240.149
+    port: 39772
+    cipher: aes-256-gcm
+    password: "CUndSZnYsPKcu6Kj8THVMBHD" 
+
+  - name: "Relay_US-US_96"
+    type: vmess 
+    server: 23.224.31.210
+    port: 443
+    uuid: 4aa50ee1-1a3c-4ab5-8f4a-998f8ccedd06 
+    alterId: 1 
+    cipher: auto
+    tls: true 
+    ws-path: path
+    network: ws
+    ws-headers:
+      Host: www.53933374.xyz
+
+  - name: "91.90.121.163:31572"
+    type: ss 
+    server: 91.90.121.163
+    port: 31572
+    cipher: aes-256-gcm
+    password: "n8w4StnbVD9dmXYn4Ajt87EA" 
+
+  - name: "Relay_CN-HK_38"
+    type: vmess 
+    server: 116.192.166.129
+    port: 10005
+    uuid: 23bed695-ce44-4534-ad0f-b06d5ad4304b 
+    alterId: 1 
+    cipher: auto
+
+  - name: "ss7.ssrsub.one:1443"
+    type: ss 
+    server: ss7.ssrsub.one
+    port: 1443
+    cipher: aes-128-gcm
+    password: "suo.yt/ssrsub" 
+
+  - name: "ss1.ssrsub.one:1443"
+    type: ss 
+    server: ss1.ssrsub.one
+    port: 1443
+    cipher: aes-128-gcm
+    password: "suo.yt/ssrsub" 
+
+  - name: "ss2.ssrsub.one:1443"
+    type: ss 
+    server: ss2.ssrsub.one
+    port: 1443
+    cipher: aes-128-gcm
+    password: "suo.yt/ssrsub" 
+
+  - name: "ss3.ssrsub.one:1443"
+    type: ss 
+    server: ss3.ssrsub.one
+    port: 1443
+    cipher: aes-128-gcm
+    password: "suo.yt/ssrsub" 
+
+  - name: "ss5.ssrsub.one:1443"
+    type: ss 
+    server: ss5.ssrsub.one
+    port: 1443
+    cipher: aes-128-gcm
+    password: "suo.yt/ssrsub" 
+
+  - name: "62.212.239.53:31572"
+    type: ss 
+    server: 62.212.239.53
+    port: 31572
+    cipher: aes-256-gcm
+    password: "n8w4StnbVD9dmXYn4Ajt87EA" 
