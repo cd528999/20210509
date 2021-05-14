@@ -5,42 +5,25 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 104.200.131.245:31944, server: 104.200.131.245, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇬🇧 ss.uk.sshmax.net:57478, server: ss.uk.sshmax.net, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: HgVDIN05O6bH}
+  - {name: 🇺🇸 ss.us.sshmax.net:57478, server: ss.us.sshmax.net, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: syCiJl3nb8OD}
+  - {name: ss.id.sshmax.net:57478, server: ss.id.sshmax.net, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: ku382YXK8cLE}
+  - {name: ss7.ssrsub.one:1443, server: ss7.ssrsub.one, port: 1443, type: ss, cipher: aes-128-gcm, password: suo.yt/ssrsub}
+  - {name: ss1.ssrsub.one:1443, server: ss1.ssrsub.one, port: 1443, type: ss, cipher: aes-128-gcm, password: suo.yt/ssrsub}
+  - {name: ss2.ssrsub.one:1443, server: ss2.ssrsub.one, port: 1443, type: ss, cipher: aes-128-gcm, password: suo.yt/ssrsub}
+  - {name: ss3.ssrsub.one:1443, server: ss3.ssrsub.one, port: 1443, type: ss, cipher: aes-128-gcm, password: suo.yt/ssrsub}
+  - {name: ss5.ssrsub.one:1443, server: ss5.ssrsub.one, port: 1443, type: ss, cipher: aes-128-gcm, password: suo.yt/ssrsub}
+  - {name: 137.59.52.107:40093, server: 137.59.52.107, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 62.212.239.53:31572, server: 62.212.239.53, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: GB_24, server: 5.183.101.200, port: 35374, type: vmess, uuid: 62836733-0014-4014-e0e3-908eea2f3063, alterId: 64, cipher: auto, tls: false}
+  - {name: Relay_-🇨🇦CA_187 |47.57Mb, server: t2.ssrsub.one, port: 443, type: trojan, password: 7LKeQVSq, sni: t2.ssrsub.one}
+  - {name: Relay_-🇨🇦CA_182 |52.54Mb, server: t5.ssrsub.one, port: 443, type: trojan, password: R5DNgT2E, sni: t5.ssrsub.one}
+  - {name: 195.181.171.241:40093, server: 195.181.171.241, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
   - {name: 193.29.106.195:49126, server: 193.29.106.195, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
-  - {name: 🇺🇸 US_5020, server: tuoku8.cf, port: 443, type: trojan, password: dsfe4, sni: tuoku8.cf}
-  - {name: 🇺🇸 US_2975, server: tuoku8.cf, port: 443, type: trojan, password: wq12a, sni: tuoku8.cf}
-  - {name: 🇺🇸 US_4960, server: virmachzhi.l5420.ml, port: 443, type: trojan, password: d6c45c94-1ca7-4e47-925c-ffa26c8083c1, sni: virmachzhi.l5420.ml}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_3007, server: virmachzhi.l5420.ml, port: 443, type: trojan, password: d6c45c94-1ca7-4e47-925c-ffa26c8083c1, sni: virmachzhi.l5420.ml}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_2945, server: 104.19.80.46, port: 8080, type: vmess, uuid: 657f7981-0138-4c99-9199-51f62002d8e5, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /1234, ws-headers: {Host: 3.ioqr.cn}}
-  - {name: 🇺🇸 US_3885, server: 23.224.164.100, port: 443, type: vmess, uuid: d25a6583-52ca-496f-87ae-f2275b3b0ddd, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.224.164.100}}
-  - {name: 🇷🇺 Relay_🇺🇸US-🇷🇺RU_2955, server: 172.67.150.130, port: 80, type: vmess, uuid: 3d31728e-064d-42b8-b945-f79c008f73fc, alterId: 233, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
-  - {name: 🇺🇸 US_63, server: 172.67.37.166, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /y284, ws-headers: {Host: cooa.xyz}}
-  - {name: 195.206.169.203:31572, server: 195.206.169.203, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇯🇵 Relay_🇺🇸US-🇯🇵JP_2961, server: c-jp-dv1.ooxc.cc, port: 443, type: vmess, uuid: f299184b-19e0-41a4-9b4b-65fa8f0e691c, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /jj, ws-headers: {Host: c-jp-dv1.ooxc.cc}}
-  - {name: 🇩🇪 Relay_🇺🇸US-🇩🇪DE_2943, server: 104.18.7.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_3005, server: us-trojan.bonds.id, port: 443, type: trojan, password: 38239dd0-902b-11eb-afc1-1239d0255272, sni: us-trojan.bonds.id}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_2967, server: cc.hciahciphcie.club, port: 443, type: vmess, uuid: 219be2f9-573d-4507-9e9b-74b385ba1c9c, alterId: 10, cipher: auto, tls: true, network: ws, ws-path: /0574a110e138dd/, ws-headers: {Host: cc.hciahciphcie.club}}
-  - {name: 🇺🇸 US_4945, server: v2us02.isxa.top, port: 443, type: vmess, uuid: b14c1a1a-8d6a-4d76-8145-5dcd73d9176e, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: v2us02.isxa.top}}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_2958, server: 23.225.165.242, port: 443, type: vmess, uuid: 34f8dd2e-55f0-4d95-bfda-714f50b6c0e1, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.225.165.242}}
-  - {name: 194.110.115.85:31572, server: 194.110.115.85, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇸 US_2974, server: tuoku8.cf, port: 443, type: trojan, password: dsfe4, sni: tuoku8.cf}
-  - {name: 🇺🇸 US_2973, server: tuoku8.cf, port: 443, type: trojan, password: sdf4dfw, sni: tuoku8.cf}
-  - {name: 188.92.78.145:40093, server: 188.92.78.145, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: -, server: 104.24.189.254, port: 443, type: vmess, uuid: 65f11be5-ac71-4f0c-874b-d93c610c66ef, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us-a.freeproxy1.workers.dev}}
-  - {name: -|西班牙, server: 5.183.103.196, port: 57801, type: vmess, uuid: 337ae850-ba0b-4647-e9b7-a222dc09b0dc, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇦🇺 AU_06, server: 1.0.0.123, port: 80, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /s/ff5c0fb.fm.apple.com:30513, ws-headers: {Host: trump.moss.network}}
-  - {name: 143.244.57.99:39772, server: 143.244.57.99, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇩🇪 Relay_🇺🇸US-🇩🇪DE_2964, server: cdnde.irteyz.today, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 68.71.244.208:49126, server: 68.71.244.208, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
-  - {name: 🇸🇬 SG_2114, server: sg3-trojan.bonds.id, port: 443, type: trojan, password: 97fdf760-7bbf-11eb-8e14-1239d0255272, sni: sg3-trojan.bonds.id}
-  - {name: 188.92.78.145:35294, server: 188.92.78.145, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇺🇸 US_71, server: us-trojan.bonds.id, port: 443, type: trojan, password: 38239dd0-902b-11eb-afc1-1239d0255272, sni: us-trojan.bonds.id}
-  - {name: 🇺🇸 US_4986, server: us-trojan.bonds.id, port: 443, type: trojan, password: 38239dd0-902b-11eb-afc1-1239d0255272, sni: us-trojan.bonds.id}
-  - {name: 143.244.57.99:39772 2, server: 143.244.57.99, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇸🇬 SG_33, server: sg1-trojan.bonds.id, port: 443, type: trojan, password: 5c5ceb40-902b-11eb-945a-1239d0255272, sni: sg1-trojan.bonds.id}
-  - {name: 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2115, server: sg1-trojan.bonds.id, port: 443, type: trojan, password: 5c5ceb40-902b-11eb-945a-1239d0255272, sni: sg1-trojan.bonds.id}
-  - {name: 🇸🇬 SG_2116, server: sg3-trojan.bonds.id, port: 443, type: trojan, password: 4c7985e0-79e8-11eb-b8d3-1239d0255272, sni: sg3-trojan.bonds.id}
-  - {name: 🇺🇸 US_44, server: 32vus.ednovas.me, port: 443, type: trojan, password: 4806bfec-c8ca-4688-b513-f6214ea52e58, sni: 32vus.ednovas.me}
+  - {name: 185.124.240.149:39772, server: 185.124.240.149, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_96, server: 23.224.31.210, port: 443, type: vmess, uuid: 4aa50ee1-1a3c-4ab5-8f4a-998f8ccedd06, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/270119141029, ws-headers: {Host: www.53933374.xyz}}
+  - {name: 91.90.121.163:31572, server: 91.90.121.163, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_38, server: 116.192.166.129, port: 10005, type: vmess, uuid: 23bed695-ce44-4534-ad0f-b06d5ad4304b, alterId: 1, cipher: auto, tls: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
