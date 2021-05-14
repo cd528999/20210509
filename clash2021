@@ -23,24 +23,10 @@ proxies:
     alterId: 1 
     cipher: auto
 
-  - name: "104.200.131.245:33998"
-    type: ss 
-    server: 104.200.131.245
-    port: 33998
-    cipher: aes-256-gcm
-    password: "NHwQTPLCfaTMSqTnU3mjcSxe" 
-
-  - name: "104.200.131.245:31944"
-    type: ss 
-    server: 104.200.131.245
-    port: 31944
-    cipher: aes-256-gcm
-    password: "aYNeKDMzYQYw4KbUbJA8Wszq" 
-
-  - name: "-|Low Latency!Transit*Guangzhou-HK01"
+  - name: "-|上海市联通1"
     type: vmess 
-    server: 183.236.57.18
-    port: 10001
+    server: 139.226.50.32
+    port: 10002
     uuid: 23bed695-ce44-4534-ad0f-b06d5ad4304b 
     alterId: 1 
     cipher: auto
@@ -52,6 +38,96 @@ proxies:
     uuid: 23bed695-ce44-4534-ad0f-b06d5ad4304b 
     alterId: 1 
     cipher: auto
+
+  - name: "-|上海市联通2"
+    type: vmess 
+    server: 139.226.50.32
+    port: 10003
+    uuid: 23bed695-ce44-4534-ad0f-b06d5ad4304b 
+    alterId: 1 
+    cipher: auto
+
+  - name: "香港  -1"
+    type: vmess 
+    server: 139.226.50.32
+    port: 10003
+    uuid: 23bed695-ce44-4534-ad0f-b06d5ad4304b 
+    alterId: 1 
+    cipher: auto
+
+  - name: "-|上海市联通3"
+    type: vmess 
+    server: 139.226.50.32
+    port: 10005
+    uuid: 23bed695-ce44-4534-ad0f-b06d5ad4304b 
+    alterId: 1 
+    cipher: auto
+
+  - name: "-|Low Latency!Transit*Guangzhou-HK01"
+    type: vmess 
+    server: 183.236.57.18
+    port: 10001
+    uuid: 23bed695-ce44-4534-ad0f-b06d5ad4304b 
+    alterId: 1 
+    cipher: auto
+
+  - name: "-|Transit*Guangzhou-Tokyo01"
+    type: vmess 
+    server: 183.236.57.18
+    port: 10005
+    uuid: 23bed695-ce44-4534-ad0f-b06d5ad4304b 
+    alterId: 1 
+    cipher: auto
+
+  - name: "104.200.131.245:33998"
+    type: ss 
+    server: 104.200.131.245
+    port: 33998
+    cipher: aes-256-gcm
+    password: "NHwQTPLCfaTMSqTnU3mjcSxe" 
+
+  - name: "195.181.171.241:40093"
+    type: ss 
+    server: 195.181.171.241
+    port: 40093
+    cipher: aes-256-gcm
+    password: "x23Z4LGkGDkThZ9Kaz4DURQp" 
+
+  - name: "138.199.40.169:40093"
+    type: ss 
+    server: 138.199.40.169
+    port: 40093
+    cipher: aes-256-gcm
+    password: "x23Z4LGkGDkThZ9Kaz4DURQp" 
+
+  - name: "南非  -"
+    type: vmess 
+    server: 13.125.170.43
+    port: 52091
+    uuid: ef9e00dd-2306-4060-c5fd-d32eabf939b4 
+    alterId: 1 
+    cipher: auto
+
+  - name: "138.199.40.169:34815"
+    type: ss 
+    server: 138.199.40.169
+    port: 34815
+    cipher: aes-256-gcm
+    password: "LkFAzkzXkSCRYa2CsRdL8cGb" 
+
+  - name: "68.71.244.208:31572"
+    type: ss 
+    server: 68.71.244.208
+    port: 31572
+    cipher: aes-256-gcm
+    password: "n8w4StnbVD9dmXYn4Ajt87EA" 
+
+  - name: "91.90.121.187:33992"
+    type: ss 
+    server: 91.90.121.187
+    port: 33992
+    cipher: aes-256-gcm
+    password: "8n6pwAcrrv2pj6tFY2p3TbQ6" 
 
   - name: "西班牙  -"
     type: vmess 
@@ -68,37 +144,38 @@ proxies:
     cipher: aes-256-gcm
     password: "n8w4StnbVD9dmXYn4Ajt87EA" 
 
-  - name: "-|上海市联通1"
+  - name: "🇺🇸 m|adi|0507 - 美国"
     type: vmess 
-    server: 139.226.50.32
-    port: 10002
-    uuid: 23bed695-ce44-4534-ad0f-b06d5ad4304b 
+    server: 23.224.31.210
+    port: 443
+    uuid: 4aa50ee1-1a3c-4ab5-8f4a-998f8ccedd06 
     alterId: 1 
     cipher: auto
+    tls: true 
+    ws-path: path
+    network: ws
+    ws-headers:
+      Host: www.53933374.xyz
 
-  - name: "-|上海市联通2"
+  - name: "-"
     type: vmess 
-    server: 139.226.50.32
-    port: 10005
-    uuid: 23bed695-ce44-4534-ad0f-b06d5ad4304b 
+    server: 172.67.154.85
+    port: 443
+    uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2 
     alterId: 1 
     cipher: auto
+    tls: true 
+    ws-path: 
+    network: ws
+    ws-headers:
+      Host: cdnde.irteyz.today
 
-  - name: "-|上海市联通3"
-    type: vmess 
-    server: 139.226.50.32
-    port: 10003
-    uuid: 23bed695-ce44-4534-ad0f-b06d5ad4304b 
-    alterId: 1 
-    cipher: auto
-
-  - name: "香港  -1"
-    type: vmess 
-    server: 139.226.50.32
-    port: 10003
-    uuid: 23bed695-ce44-4534-ad0f-b06d5ad4304b 
-    alterId: 1 
-    cipher: auto
+  - name: "104.200.131.245:339981"
+    type: ss 
+    server: 104.200.131.245
+    port: 33998
+    cipher: aes-256-gcm
+    password: "NHwQTPLCfaTMSqTnU3mjcSxe" 
 
   - name: "212.102.44.66:33992"
     type: ss 
@@ -107,28 +184,19 @@ proxies:
     cipher: aes-256-gcm
     password: "8n6pwAcrrv2pj6tFY2p3TbQ6" 
 
-  - name: "巴林  -"
-    type: vmess 
-    server: 15.185.149.71
-    port: 14474
-    uuid: fd0239b1-9d67-4867-fb7e-e14946b120af 
-    alterId: 1 
-    cipher: auto
-
-  - name: "138.199.40.169:40093"
+  - name: "138.199.40.169:37588"
     type: ss 
     server: 138.199.40.169
-    port: 40093
+    port: 37588
     cipher: aes-256-gcm
-    password: "x23Z4LGkGDkThZ9Kaz4DURQp" 
+    password: "kD9vkjnE6dsUzwQfvKkPkQAd" 
 
-  - name: "欧洲  -"
-    type: vmess 
-    server: 15.185.46.228
-    port: 34159
-    uuid: 1bc13688-ec25-4b37-d707-1ebbdc358bbc 
-    alterId: 1 
-    cipher: auto
+  - name: "154.127.50.138:31572"
+    type: ss 
+    server: 154.127.50.138
+    port: 31572
+    cipher: aes-256-gcm
+    password: "n8w4StnbVD9dmXYn4Ajt87EA" 
 
   - name: "138.199.40.169:33992"
     type: ss 
@@ -137,18 +205,13 @@ proxies:
     cipher: aes-256-gcm
     password: "8n6pwAcrrv2pj6tFY2p3TbQ6" 
 
-  - name: "🇺🇸 US_90"
+  - name: "波兰  -"
     type: vmess 
-    server: 104.25.52.187
-    port: 443
-    uuid: 4cdb016f-f14e-30b3-97d6-453c741a5c80 
+    server: 95.214.55.118
+    port: 41505
+    uuid: ab2a10e8-50a1-4d20-e973-b211ea6457f4 
     alterId: 1 
     cipher: auto
-    tls: true 
-    ws-path: y475
-    network: ws
-    ws-headers:
-      Host: free.frli.xyz
 
   - name: "美国  -"
     type: vmess 
@@ -157,49 +220,6 @@ proxies:
     uuid: d70cc1b3-e7e8-4b88-a24e-c91f001fd69e 
     alterId: 1 
     cipher: auto
-
-  - name: "南非  -"
-    type: vmess 
-    server: 13.245.16.126
-    port: 20404
-    uuid: 559636c7-b5a2-450c-9b5e-0dc8fc14f4f5 
-    alterId: 1 
-    cipher: auto
-
-  - name: "-|西班牙"
-    type: vmess 
-    server: 5.183.103.196
-    port: 57801
-    uuid: 337ae850-ba0b-4647-e9b7-a222dc09b0dc 
-    alterId: 1 
-    cipher: auto
-
-  - name: "-|西班牙1"
-    type: vmess 
-    server: 5.183.103.196
-    port: 57801
-    uuid: 337ae850-ba0b-4647-e9b7-a222dc09b0dc 
-    alterId: 1 
-    cipher: auto
-
-  - name: "-|Transit*Guangzhou-Tokyo01"
-    type: vmess 
-    server: 183.236.57.18
-    port: 10005
-    uuid: 23bed695-ce44-4534-ad0f-b06d5ad4304b 
-    alterId: 1 
-    cipher: auto
-
-  - name: "Relay_🇺🇸US-🇺🇸US_2780"
-    type: vmess 
-    server: 3.ioqr.cn
-    port: 8080
-    uuid: 657f7981-0138-4c99-9199-51f62002d8e5 
-    alterId: 1 
-    cipher: auto
-    tls: false 
-    ws-path: /1234
-    network: ws
 
   - name: "🇺🇸 US_73"
     type: vmess 
@@ -214,33 +234,9 @@ proxies:
     ws-headers:
       Host: cdnde.irteyz.today
 
-  - name: "俄罗斯  -"
+  - name: "-1"
     type: vmess 
-    server: r3uuuus.liuwei.gq
-    port: 443
-    uuid: 69cb9f3d-6e5d-4add-9806-b20917ea683d 
-    alterId: 1 
-    cipher: auto
-    tls: true 
-    ws-path: 
-    network: ws
-
-  - name: "🇺🇸 m|Relay_🇺🇸US-🇺🇸US_2831"
-    type: vmess 
-    server: 104.16.248.130
-    port: 443
-    uuid: e6397eda-dd27-4832-a693-b3fb156ec0f3 
-    alterId: 1 
-    cipher: auto
-    tls: true 
-    ws-path: 233blog
-    network: ws
-    ws-headers:
-      Host: rn.man-one.club
-
-  - name: "🇩🇪   -|Relay_🇺🇸US-🇩🇪DE_2740"
-    type: vmess 
-    server: 104.18.7.138
+    server: 104.21.48.161
     port: 443
     uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2 
     alterId: 1 
@@ -250,19 +246,6 @@ proxies:
     network: ws
     ws-headers:
       Host: cdnde.irteyz.today
-
-  - name: "🇺🇸 m|adi|0507 - 美国"
-    type: vmess 
-    server: 23.224.31.210
-    port: 443
-    uuid: 4aa50ee1-1a3c-4ab5-8f4a-998f8ccedd06 
-    alterId: 1 
-    cipher: auto
-    tls: true 
-    ws-path: path
-    network: ws
-    ws-headers:
-      Host: www.53933374.xyz
 
   - name: "45.89.173.205:33992"
     type: ss 
@@ -271,74 +254,32 @@ proxies:
     cipher: aes-256-gcm
     password: "8n6pwAcrrv2pj6tFY2p3TbQ6" 
 
-  - name: "185.124.240.149:39772"
-    type: ss 
-    server: 185.124.240.149
-    port: 39772
-    cipher: aes-256-gcm
-    password: "CUndSZnYsPKcu6Kj8THVMBHD" 
-
-  - name: "00301315"
-    type: vmess 
-    server: cc.hciahciphcie.club
-    port: 443
-    uuid: 9a297bb1-06e3-4e6f-97fa-3d3202d46596 
-    alterId: 1 
-    cipher: auto
-    tls: true 
-    ws-path: 84c3f
-    network: ws
-    ws-headers:
-      Host: cc.hciahciphcie.club
-
-  - name: "美国  -1"
-    type: vmess 
-    server: 45.88.179.35
-    port: 35497
-    uuid: 085e6815-e476-411a-a9a6-4e5306a1b875 
-    alterId: 1 
-    cipher: auto
-
-  - name: "104.200.131.245:33992"
-    type: ss 
-    server: 104.200.131.245
-    port: 33992
-    cipher: aes-256-gcm
-    password: "8n6pwAcrrv2pj6tFY2p3TbQ6" 
-
-  - name: "195.181.171.241:40093"
-    type: ss 
-    server: 195.181.171.241
-    port: 40093
-    cipher: aes-256-gcm
-    password: "x23Z4LGkGDkThZ9Kaz4DURQp" 
-
   - name: "南非  -1"
-    type: vmess 
-    server: 13.125.170.43
-    port: 52091
-    uuid: ef9e00dd-2306-4060-c5fd-d32eabf939b4 
-    alterId: 1 
-    cipher: auto
-
-  - name: "-|Relay_🇺🇸US-🇩🇪DE_2740"
-    type: vmess 
-    server: 104.18.7.138
-    port: 443
-    uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2 
-    alterId: 1 
-    cipher: auto
-    tls: true 
-    ws-path: 
-    network: ws
-    ws-headers:
-      Host: cdnde.irteyz.today
-
-  - name: "南非  -2"
     type: vmess 
     server: 13.245.13.47
     port: 45623
     uuid: a443853f-ce89-4b7c-e6f5-a5ad018085bf 
+    alterId: 1 
+    cipher: auto
+
+  - name: "🇺🇸 US_90"
+    type: vmess 
+    server: 104.25.52.187
+    port: 443
+    uuid: 4cdb016f-f14e-30b3-97d6-453c741a5c80 
+    alterId: 1 
+    cipher: auto
+    tls: true 
+    ws-path: y475
+    network: ws
+    ws-headers:
+      Host: free.frli.xyz
+
+  - name: "-|西班牙"
+    type: vmess 
+    server: 5.183.103.196
+    port: 57801
+    uuid: 337ae850-ba0b-4647-e9b7-a222dc09b0dc 
     alterId: 1 
     cipher: auto
 
@@ -349,11 +290,35 @@ proxies:
     cipher: aes-256-gcm
     password: "n8w4StnbVD9dmXYn4Ajt87EA" 
 
-  - name: "欧洲  -1"
+  - name: "欧洲  -"
     type: vmess 
-    server: 3.35.218.230
-    port: 40499
-    uuid: 97f6451f-2f12-4737-dc7e-313e6736c3bf 
+    server: 15.185.46.228
+    port: 34159
+    uuid: 1bc13688-ec25-4b37-d707-1ebbdc358bbc 
+    alterId: 1 
+    cipher: auto
+
+  - name: "南非  -2"
+    type: vmess 
+    server: 13.245.16.126
+    port: 20404
+    uuid: 559636c7-b5a2-450c-9b5e-0dc8fc14f4f5 
+    alterId: 1 
+    cipher: auto
+
+  - name: "-|美国Xerox"
+    type: vmess 
+    server: 13.245.13.47
+    port: 45623
+    uuid: a443853f-ce89-4b7c-e6f5-a5ad018085bf 
+    alterId: 1 
+    cipher: auto
+
+  - name: "美国  -1"
+    type: vmess 
+    server: 45.88.179.35
+    port: 35497
+    uuid: 085e6815-e476-411a-a9a6-4e5306a1b875 
     alterId: 1 
     cipher: auto
 
@@ -364,21 +329,6 @@ proxies:
     cipher: aes-256-gcm
     password: "CUndSZnYsPKcu6Kj8THVMBHD" 
 
-  - name: "212.102.35.218:31572"
-    type: ss 
-    server: 212.102.35.218
-    port: 31572
-    cipher: aes-256-gcm
-    password: "n8w4StnbVD9dmXYn4Ajt87EA" 
-
-  - name: "-|美国Xerox"
-    type: vmess 
-    server: 13.245.13.47
-    port: 45623
-    uuid: a443853f-ce89-4b7c-e6f5-a5ad018085bf 
-    alterId: 1 
-    cipher: auto
-
   - name: "188.92.78.145:40093"
     type: ss 
     server: 188.92.78.145
@@ -386,17 +336,82 @@ proxies:
     cipher: aes-256-gcm
     password: "x23Z4LGkGDkThZ9Kaz4DURQp" 
 
-  - name: "波兰  -"
+  - name: "Relay_🇺🇸US-🇺🇸US_2780"
     type: vmess 
-    server: 95.214.55.118
-    port: 41505
-    uuid: ab2a10e8-50a1-4d20-e973-b211ea6457f4 
+    server: 3.ioqr.cn
+    port: 8080
+    uuid: 657f7981-0138-4c99-9199-51f62002d8e5 
     alterId: 1 
     cipher: auto
+    tls: false 
+    ws-path: /1234
+    network: ws
+
+  - name: "-2"
+    type: vmess 
+    server: 104.18.6.138
+    port: 443
+    uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2 
+    alterId: 1 
+    cipher: auto
+    tls: true 
+    ws-path: 
+    network: ws
+    ws-headers:
+      Host: cdnde.irteyz.today
+
+  - name: "212.102.44.66:339921"
+    type: ss 
+    server: 212.102.44.66
+    port: 33992
+    cipher: aes-256-gcm
+    password: "8n6pwAcrrv2pj6tFY2p3TbQ6" 
+
+  - name: "2.58.242.43:39772"
+    type: ss 
+    server: 2.58.242.43
+    port: 39772
+    cipher: aes-256-gcm
+    password: "CUndSZnYsPKcu6Kj8THVMBHD" 
+
+  - name: "188.92.78.145:35294"
+    type: ss 
+    server: 188.92.78.145
+    port: 35294
+    cipher: aes-256-gcm
+    password: "J9Y2ncrdPEC38gwydNFFGBna" 
+
+  - name: "81.19.214.37:39772"
+    type: ss 
+    server: 81.19.214.37
+    port: 39772
+    cipher: aes-256-gcm
+    password: "CUndSZnYsPKcu6Kj8THVMBHD" 
 
   - name: "143.244.57.99:39772"
     type: ss 
     server: 143.244.57.99
+    port: 39772
+    cipher: aes-256-gcm
+    password: "CUndSZnYsPKcu6Kj8THVMBHD" 
+
+  - name: "62.212.239.53:31572"
+    type: ss 
+    server: 62.212.239.53
+    port: 31572
+    cipher: aes-256-gcm
+    password: "n8w4StnbVD9dmXYn4Ajt87EA" 
+
+  - name: "195.181.171.241:39772"
+    type: ss 
+    server: 195.181.171.241
+    port: 39772
+    cipher: aes-256-gcm
+    password: "CUndSZnYsPKcu6Kj8THVMBHD" 
+
+  - name: "81.19.214.37:397721"
+    type: ss 
+    server: 81.19.214.37
     port: 39772
     cipher: aes-256-gcm
     password: "CUndSZnYsPKcu6Kj8THVMBHD" 
@@ -408,51 +423,3 @@ proxies:
     cipher: aes-256-gcm
     password: "LPdNj6ZpzF6GQ4NC7sYyXey3" 
 
-  - name: "89.46.223.239:39772"
-    type: ss 
-    server: 89.46.223.239
-    port: 39772
-    cipher: aes-256-gcm
-    password: "CUndSZnYsPKcu6Kj8THVMBHD" 
-
-  - name: "81.19.214.37:39772"
-    type: ss 
-    server: 81.19.214.37
-    port: 39772
-    cipher: aes-256-gcm
-    password: "CUndSZnYsPKcu6Kj8THVMBHD" 
-
-  - name: "188.92.78.145:33992"
-    type: ss 
-    server: 188.92.78.145
-    port: 33992
-    cipher: aes-256-gcm
-    password: "8n6pwAcrrv2pj6tFY2p3TbQ6" 
-
-  - name: "62.212.239.53:31572"
-    type: ss 
-    server: 62.212.239.53
-    port: 31572
-    cipher: aes-256-gcm
-    password: "n8w4StnbVD9dmXYn4Ajt87EA" 
-
-  - name: "2.58.242.43:39772"
-    type: ss 
-    server: 2.58.242.43
-    port: 39772
-    cipher: aes-256-gcm
-    password: "CUndSZnYsPKcu6Kj8THVMBHD" 
-
-  - name: "188.92.78.145:339921"
-    type: ss 
-    server: 188.92.78.145
-    port: 33992
-    cipher: aes-256-gcm
-    password: "8n6pwAcrrv2pj6tFY2p3TbQ6" 
-
-  - name: "188.92.78.145:35294"
-    type: ss 
-    server: 188.92.78.145
-    port: 35294
-    cipher: aes-256-gcm
-    password: "J9Y2ncrdPEC38gwydNFFGBna" 
