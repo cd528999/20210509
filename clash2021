@@ -5,26 +5,26 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇬🇧 ss.uk.sshmax.net:57478, server: ss.uk.sshmax.net, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: HgVDIN05O6bH}
-  - {name: 🇺🇸 ss.us.sshmax.net:57478, server: ss.us.sshmax.net, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: syCiJl3nb8OD}
-  - {name: ss.id.sshmax.net:57478, server: ss.id.sshmax.net, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: ku382YXK8cLE}
-  - {name: ss7.ssrsub.one:1443, server: ss7.ssrsub.one, port: 1443, type: ss, cipher: aes-128-gcm, password: suo.yt/ssrsub}
-  - {name: ss1.ssrsub.one:1443, server: ss1.ssrsub.one, port: 1443, type: ss, cipher: aes-128-gcm, password: suo.yt/ssrsub}
-  - {name: ss2.ssrsub.one:1443, server: ss2.ssrsub.one, port: 1443, type: ss, cipher: aes-128-gcm, password: suo.yt/ssrsub}
-  - {name: ss3.ssrsub.one:1443, server: ss3.ssrsub.one, port: 1443, type: ss, cipher: aes-128-gcm, password: suo.yt/ssrsub}
-  - {name: ss5.ssrsub.one:1443, server: ss5.ssrsub.one, port: 1443, type: ss, cipher: aes-128-gcm, password: suo.yt/ssrsub}
-  - {name: 137.59.52.107:40093, server: 137.59.52.107, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 62.212.239.53:31572, server: 62.212.239.53, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: GB_24, server: 5.183.101.200, port: 35374, type: vmess, uuid: 62836733-0014-4014-e0e3-908eea2f3063, alterId: 64, cipher: auto, tls: false}
-  - {name: Relay_-🇨🇦CA_187 |47.57Mb, server: t2.ssrsub.one, port: 443, type: trojan, password: 7LKeQVSq, sni: t2.ssrsub.one}
-  - {name: Relay_-🇨🇦CA_182 |52.54Mb, server: t5.ssrsub.one, port: 443, type: trojan, password: R5DNgT2E, sni: t5.ssrsub.one}
-  - {name: 195.181.171.241:40093, server: 195.181.171.241, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 193.29.106.195:49126, server: 193.29.106.195, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
-  - {name: 185.124.240.149:39772, server: 185.124.240.149, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_96, server: 23.224.31.210, port: 443, type: vmess, uuid: 4aa50ee1-1a3c-4ab5-8f4a-998f8ccedd06, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/270119141029, ws-headers: {Host: www.53933374.xyz}}
+  - {name: 🇨🇦 加拿大 4, server: t4.ssrsub.one, port: 443, type: trojan, password: fFHV52LP, sni: t4.ssrsub.one}
+  - {name: 104.200.131.245:33992, server: 104.200.131.245, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 185.124.240.159:38742, server: 185.124.240.159, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 🇺🇸 美国, server: 23.224.31.210, port: 443, type: vmess, uuid: 4aa50ee1-1a3c-4ab5-8f4a-998f8ccedd06, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/270119141029, ws-headers: {Host: www.53933374.xyz}}
   - {name: 91.90.121.163:31572, server: 91.90.121.163, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_38, server: 116.192.166.129, port: 10005, type: vmess, uuid: 23bed695-ce44-4534-ad0f-b06d5ad4304b, alterId: 1, cipher: auto, tls: false}
-proxy-groups:
+  - {name: 🇨🇦 加拿大 3, server: t2.ssrsub.one, port: 443, type: trojan, password: 7LKeQVSq, sni: t2.ssrsub.one}
+  - {name: 62.212.239.53:31572, server: 62.212.239.53, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 185.124.240.149:39772, server: 185.124.240.149, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 198.147.22.87:32558, server: 198.147.22.87, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
+  - {name: 198.147.22.87:31757, server: 198.147.22.87, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
+  - {name: 🇺🇸 ss.us.sshmax.net:1443, server: ss.us.sshmax.net, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: T3j6elRwEuA4}
+  - {name: 51.81.35.164:57478, server: 51.81.35.164, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: syCiJl3nb8OD}
+  - {name: 🇷🇺 俄罗斯 2, server: t10.ssrsub.one, port: 443, type: trojan, password: XHgvdhp7, sni: t10.ssrsub.one}
+  - {name: 198.147.22.87:40093, server: 198.147.22.87, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 198.147.22.87:34815, server: 198.147.22.87, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 104.200.131.245:31944, server: 104.200.131.245, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 198.147.22.87:33992, server: 198.147.22.87, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 104.200.131.245:33998, server: 104.200.131.245, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 193.29.106.195:49126, server: 193.29.106.195, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
