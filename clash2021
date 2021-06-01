@@ -1,0 +1,356 @@
+proxies: 
+  - name: "Relay_🇨🇳CN-🇯🇵JP_621"
+    type: vmess 
+    server: 00.cn2.rocketdns.xyz
+    port: 21003
+    uuid: 74ca2435-a520-3ff6-8d0c-aed108332ad7 
+    alterId: 1 
+    cipher: auto
+    tls: false 
+    ws-path: /rocket
+    network: ws
+    ws-headers:
+      Host: 04.jp.rocketdns.xyz
+
+  - name: "Relay_🇨🇳CN-🇭🇰HK_603"
+    type: vmess 
+    server: 00.cn2.rocketdns.xyz
+    port: 21002
+    uuid: 74ca2435-a520-3ff6-8d0c-aed108332ad7 
+    alterId: 1 
+    cipher: auto
+    tls: false 
+    ws-path: /rocket
+    network: ws
+    ws-headers:
+      Host: 02.hk.rocketdns.xyz
+
+  - name: "Relay_🇨🇳CN-🇯🇵JP_605"
+    type: vmess 
+    server: 00.cn2.rocketdns.xyz
+    port: 21004
+    uuid: 74ca2435-a520-3ff6-8d0c-aed108332ad7 
+    alterId: 1 
+    cipher: auto
+    tls: false 
+    ws-path: /rocket
+    network: ws
+    ws-headers:
+      Host: 05.jp.rocketdns.xyz
+
+  - name: "Relay_ | 2.35Mb"
+    type: vmess 
+    server: vip345.xyz
+    port: 39009
+    uuid: 49955b62-27c7-3734-bc6b-1c60c0ab0059 
+    alterId: 1 
+    cipher: auto
+    tls: false 
+    ws-path: /xgr
+    network: ws
+
+  - name: "Relay_ | 9.84Mb"
+    type: vmess 
+    server: 00.cn2.rocketdns.xyz
+    port: 21001
+    uuid: 74ca2435-a520-3ff6-8d0c-aed108332ad7 
+    alterId: 1 
+    cipher: auto
+    tls: false 
+    ws-path: /rocket
+    network: ws
+    ws-headers:
+      Host: 01.hk.rocketdns.xyz
+
+  - name: "Relay_🇨🇳CN-🇰🇷KR_620"
+    type: vmess 
+    server: 00.cn2.rocketdns.xyz
+    port: 21011
+    uuid: 74ca2435-a520-3ff6-8d0c-aed108332ad7 
+    alterId: 1 
+    cipher: auto
+    tls: false 
+    ws-path: /rocket
+    network: ws
+    ws-headers:
+      Host: 12.in.rocketdns.xyz
+
+  - name: "Relay_ | 6.76Mb"
+    type: vmess 
+    server: 00.cn2.rocketdns.xyz
+    port: 21009
+    uuid: 74ca2435-a520-3ff6-8d0c-aed108332ad7 
+    alterId: 1 
+    cipher: auto
+    tls: false 
+    ws-path: /rocket
+    network: ws
+    ws-headers:
+      Host: 10.gb.rocketdns.xyz
+
+  - name: "Relay_🇨🇳CN-🇭🇰HK_602"
+    type: vmess 
+    server: 00.cn2.rocketdns.xyz
+    port: 21008
+    uuid: 74ca2435-a520-3ff6-8d0c-aed108332ad7 
+    alterId: 1 
+    cipher: auto
+    tls: false 
+    ws-path: /rocket
+    network: ws
+    ws-headers:
+      Host: 09.tw.rocketdns.xyz
+
+  - name: "Relay_ |21.81Mb"
+    type: vmess 
+    server: vip345.xyz
+    port: 39006
+    uuid: 49955b62-27c7-3734-bc6b-1c60c0ab0059 
+    alterId: 1 
+    cipher: auto
+    tls: false 
+    ws-path: /xgr
+    network: ws
+
+  - name: "Relay_ | 4.18Mb"
+    type: vmess 
+    server: gdyd.jmzhongzhuan.xyz
+    port: 58888
+    uuid: 01fc4f5b-395f-3c4f-a4e5-2970b7422ee6 
+    alterId: 1 
+    cipher: auto
+    tls: false 
+    ws-path: /v2ray
+    network: ws
+    ws-headers:
+      Host: gdyd.jmzhongzhuan.xyz
+
+  - name: "| 7.49Mb"
+    type: vmess 
+    server: 18.166.249.196
+    port: 889
+    uuid: 5e3078ff-3676-3041-a5e3-4602bd3bc532 
+    alterId: 1 
+    cipher: auto
+    tls: false 
+    ws-path: /public
+    network: ws
+    ws-headers:
+      Host: 18.166.249.196
+
+  - name: "Relay_🇨🇦CA-🇫🇷FR_576 | 2.48Mb"
+    type: vmess 
+    server: bimbel.ruangguru.com
+    port: 80
+    uuid: b22b990f-b6dd-4b57-a0e1-ee3f829d413f 
+    alterId: 1 
+    cipher: auto
+    tls: false 
+    ws-path: /sshkit
+    network: ws
+    ws-headers:
+      Host: eu-sshkit.v2-ray.cf
+
+  - name: "Relay_ |10.28Mb"
+    type: vmess 
+    server: 104.18.6.138
+    port: 443
+    uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2 
+    alterId: 1 
+    cipher: auto
+    tls: true 
+    ws-path: 
+    network: ws
+    ws-headers:
+      Host: cdnde.irteyz.today
+
+  - name: "|16.73Mb"
+    type: vmess 
+    server: 205.185.122.222
+    port: 443
+    uuid: ddbdb168-c1e1-11eb-bed0-001683f0971e 
+    alterId: 1 
+    cipher: auto
+    tls: true 
+    ws-path: ST1RspvZ
+    network: ws
+    ws-headers:
+      Host: a7.ssrsub.one
+
+  - name: "51.210.0.103:805"
+    type: ss 
+    server: 51.210.0.103
+    port: 805
+    cipher: chacha20-ietf-poly1305
+    password: "G!yBwPWH3Vao" 
+
+  - name: "51.210.0.103:808"
+    type: ss 
+    server: 51.210.0.103
+    port: 808
+    cipher: chacha20-ietf-poly1305
+    password: "G!yBwPWH3Vao" 
+
+  - name: "163.172.110.147:805"
+    type: ss 
+    server: 163.172.110.147
+    port: 805
+    cipher: chacha20-ietf-poly1305
+    password: "G!yBwPWH3Vao" 
+
+  - name: "Relay_🇨🇳CN-🇰🇷KR_598"
+    type: vmess 
+    server: 00.cn2.rocketdns.xyz
+    port: 21006
+    uuid: 74ca2435-a520-3ff6-8d0c-aed108332ad7 
+    alterId: 1 
+    cipher: auto
+    tls: false 
+    ws-path: /rocket
+    network: ws
+    ws-headers:
+      Host: 07.kr.rocketdns.xyz
+
+  - name: "51.210.0.103:806"
+    type: ss 
+    server: 51.210.0.103
+    port: 806
+    cipher: chacha20-ietf-poly1305
+    password: "G!yBwPWH3Vao" 
+
+  - name: "| 5.92Mb"
+    type: vmess 
+    server: 16.162.103.87
+    port: 889
+    uuid: 5e3078ff-3676-3041-a5e3-4602bd3bc532 
+    alterId: 1 
+    cipher: auto
+    tls: false 
+    ws-path: /public
+    network: ws
+    ws-headers:
+      Host: 16.162.103.87
+
+  - name: "Relay_ |19.88Mb"
+    type: vmess 
+    server: cdnde.irteyz.today
+    port: 443
+    uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2 
+    alterId: 1 
+    cipher: auto
+    tls: true 
+    ws-path: 
+    network: ws
+    ws-headers:
+      Host: cdnde.irteyz.today
+
+  - name: "Relay_ | 9.31Mb"
+    type: vmess 
+    server: agals05.v2raya.xyz
+    port: 80
+    uuid: 5e3078ff-3676-3041-a5e3-4602bd3bc532 
+    alterId: 1 
+    cipher: auto
+    tls: false 
+    ws-path: /public
+    network: ws
+    ws-headers:
+      Host: github.com
+
+  - name: "|17.31Mb"
+    type: vmess 
+    server: 18.166.152.161
+    port: 889
+    uuid: 5e3078ff-3676-3041-a5e3-4602bd3bc532 
+    alterId: 1 
+    cipher: auto
+    tls: false 
+    ws-path: /public
+    network: ws
+    ws-headers:
+      Host: 18.166.152.161
+
+  - name: "Relay_ |10.19Mb"
+    type: vmess 
+    server: 104.18.7.138
+    port: 443
+    uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2 
+    alterId: 1 
+    cipher: auto
+    tls: true 
+    ws-path: 
+    network: ws
+    ws-headers:
+      Host: cdnde.irteyz.today
+
+  - name: "51.210.0.103:803"
+    type: ss 
+    server: 51.210.0.103
+    port: 803
+    cipher: chacha20-ietf-poly1305
+    password: "G!yBwPWH3Vao" 
+
+  - name: "|13.78Mb"
+    type: vmess 
+    server: 16.162.33.111
+    port: 889
+    uuid: 5e3078ff-3676-3041-a5e3-4602bd3bc532 
+    alterId: 1 
+    cipher: auto
+    tls: false 
+    ws-path: /public
+    network: ws
+    ws-headers:
+      Host: 16.162.33.111
+
+  - name: "Relay_ |19.02Mb"
+    type: vmess 
+    server: agals03.v2raya.xyz
+    port: 80
+    uuid: 5e3078ff-3676-3041-a5e3-4602bd3bc532 
+    alterId: 1 
+    cipher: auto
+    tls: false 
+    ws-path: /public
+    network: ws
+    ws-headers:
+      Host: github.com
+
+  - name: "Relay_ |32.73Mb"
+    type: vmess 
+    server: agals03.v2raya.xyz
+    port: 80
+    uuid: 5e3078ff-3676-3041-a5e3-4602bd3bc532 
+    alterId: 1 
+    cipher: auto
+    tls: false 
+    ws-path: /public
+    network: ws
+    ws-headers:
+      Host: agals03.v2raya.xyz
+
+  - name: "Relay_ | 7.25Mb"
+    type: vmess 
+    server: agals04.v2raya.xyz
+    port: 80
+    uuid: 5e3078ff-3676-3041-a5e3-4602bd3bc532 
+    alterId: 1 
+    cipher: auto
+    tls: false 
+    ws-path: /public
+    network: ws
+    ws-headers:
+      Host: agals04.v2raya.xyz
+
+  - name: "Relay_ | 9.63Mb"
+    type: vmess 
+    server: 172.67.154.85
+    port: 443
+    uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2 
+    alterId: 1 
+    cipher: auto
+    tls: true 
+    ws-path: 
+    network: ws
+    ws-headers:
+      Host: cdnde.irteyz.today
