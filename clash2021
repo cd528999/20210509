@@ -1,0 +1,142 @@
+proxies: 
+  - name: "212.102.44.83:31944"
+    type: ss 
+    server: 212.102.44.83
+    port: 31944
+    cipher: aes-256-gcm
+    password: "aYNeKDMzYQYw4KbUbJA8Wszq" 
+
+  - name: "🇨🇦CA_646"
+    type: trojan 
+    server: ca-trojan.bonds.id
+    port: 443#%F0%9F%87%A8%F0%9F%87%A6CA_646
+    password: "ac5a3ef0-b4ab-11eb-b65e-1239d0255272" 
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: true
+
+  - name: "207.182.155.170:3030"
+    type: ss 
+    server: 207.182.155.170
+    port: 3030
+    cipher: chacha20-ietf-poly1305
+    password: "gRcNQyKEpDEI" 
+
+  - name: "212.102.36.234:33148"
+    type: ss 
+    server: 212.102.36.234
+    port: 33148
+    cipher: aes-256-gcm
+    password: "CMduaFXddcQbwNAAs7xFDnc8" 
+
+  - name: "91.205.230.133:44236"
+    type: ss 
+    server: 91.205.230.133
+    port: 44236
+    cipher: aes-256-gcm
+    password: "FWrXcxPZjJxAN89xLgqY3Acp" 
+
+  - name: "91.205.230.133:34687"
+    type: ss 
+    server: 91.205.230.133
+    port: 34687
+    cipher: aes-256-gcm
+    password: "txmK9WhwP6WPhP7hqSBLVxpN" 
+
+  - name: "Relay_-🇭🇰HK_137"
+    type: vmess 
+    server: 07.HKG.ASIA.BIGAIRPORT.NET
+    port: 80
+    uuid: 9d2aa977-4ba6-45de-a694-a3a2b30df394 
+    alterId: 1 
+    cipher: auto
+    tls: false 
+    ws-path: /
+    network: ws
+    ws-headers:
+      Host: 07.HKG.ASIA.BIGAIRPORT.NET
+
+  - name: "Pool_ |10.48Mb"
+    type: vmess 
+    server: 46.182.107.39
+    port: 443
+    uuid: d09448d0-2a16-4288-b37d-de49928e59bd 
+    alterId: 1 
+    cipher: auto
+    tls: true 
+    ws-path: footers
+    network: ws
+    ws-headers:
+      Host: www.49696760.xyz
+
+  - name: "185.108.105.75:37588"
+    type: ss 
+    server: 185.108.105.75
+    port: 37588
+    cipher: aes-256-gcm
+    password: "kD9vkjnE6dsUzwQfvKkPkQAd" 
+
+  - name: "Relay_-🇺🇸US_131"
+    type: vmess 
+    server: 15.HKG.ASIA.BIGAIRPORT.NET
+    port: 80
+    uuid: 9d2aa977-4ba6-45de-a694-a3a2b30df394 
+    alterId: 1 
+    cipher: auto
+    tls: false 
+    ws-path: /
+    network: ws
+    ws-headers:
+      Host: 15.HKG.ASIA.BIGAIRPORT.NET
+
+  - name: "Relay_-🇺🇸US_123 | 2.88Mb"
+    type: vmess 
+    server: hk1opuy-node.3366test.com
+    port: 13723
+    uuid: a90597c1-bab3-4217-ad6f-0838675c8638 
+    alterId: 1 
+    cipher: auto
+    tls: true 
+    ws-path: ray
+    network: ws
+    ws-headers:
+      Host: hk1opuy-node.3366test.com
+
+  - name: "91.205.230.133:45329"
+    type: ss 
+    server: 91.205.230.133
+    port: 45329
+    cipher: aes-256-gcm
+    password: "CXSjgD7u7Ar7GxkZ4CgTMUsj" 
+
+  - name: "91.205.230.133:33992"
+    type: ss 
+    server: 91.205.230.133
+    port: 33992
+    cipher: aes-256-gcm
+    password: "8n6pwAcrrv2pj6tFY2p3TbQ6" 
+
+  - name: "185.108.105.75:46642"
+    type: ss 
+    server: 185.108.105.75
+    port: 46642
+    cipher: aes-256-gcm
+    password: "gYL83DQWXuDbxmZAVVtUTXaK" 
+
+  - name: "🇫🇷FR_1376"
+    type: trojan 
+    server: fr-trojan.bonds.id
+    port: 443#%F0%9F%87%AB%F0%9F%87%B7FR_1376
+    password: "7c9b7560-b0f7-11eb-a397-1239d0255272" 
+    alpn:
+    - h2
+    - http/1.1
+    skip-cert-verify: true
+
+  - name: "ss1.ssrsub.one:5443"
+    type: ss 
+    server: ss1.ssrsub.one
+    port: 5443
+    cipher: aes-128-gcm
+    password: "suo.yt/ssrsub" 
