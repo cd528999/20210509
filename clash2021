@@ -1,0 +1,19 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+proxies:
+  - {name: 🇭🇰 hkt2.welsonal.xyz:443, server: hkt2.welsonal.xyz, port: 443, type: trojan, password: 4df3DRWVEefugStR, sni: hkt2.welsonal.xyz}
+  - {name: 120.232.41.6:204, server: 120.232.41.6, port: 204, type: ss, cipher: aes-256-gcm, password: 7oosgzlD}
+  - {name: 🇭🇰 hkt3.welsonal.xyz:443, server: hkt3.welsonal.xyz, port: 443, type: trojan, password: B1vXvRHAtGIcPE5l, sni: hkt3.welsonal.xyz}
+  - {name: t8.ssrsub.one:2096, server: t8.ssrsub.one, port: 2096, type: trojan, password: 8fYXtJON, sni: t8.ssrsub.one}
+  - {name: 104.200.131.165:33992, server: 104.200.131.165, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 208.78.41.198:33992, server: 208.78.41.198, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 45.89.173.205:33998, server: 45.89.173.205, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇺🇸 US_85, server: 3.66.221.175, port: 31186, type: vmess, uuid: 3ebad99a-4470-4998-94be-43046d0b4986, alterId: 64, cipher: auto, tls: false}
+  - {name: 84.17.35.86:39772, server: 84.17.35.86, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 89.238.133.125:33992, server: 89.238.133.125, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 193.29.106.20:33992, server: 193.29.106.20, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+proxy-groups:
