@@ -1,0 +1,12 @@
+proxies:
+  - {name: 🇸🇬 SG_1877, server: 23.101.11.40, port: 10008, type: vmess, uuid: 1dbaf7e9-f581-4b07-aad0-084f4ef2dd04, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ws, ws-headers: {Host: 23.101.11.40}}
+  - {name: 🇭🇰 RelaHK_2169, server: guangzhoucm.cdn223.me, port: 958, type: vmess, uuid: b815d9cf-eead-3fc1-8c27-9c1ff3962b69, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /hls, ws-headers: {Host: xingazhk1.xiaobaiyun.me}}
+  - {name: 🇭🇰 HK_39 |20.66Mb, server: hk3.xyttk.vip, port: 80, type: vmess, uuid: 5bf34c7c-1211-4c73-b292-3593cd582005, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hk3.xyttk.vip}}
+  - {name: 🇭🇰 HK_1872, server: hk4.xyttk.vip, port: 80, type: vmess, uuid: 5bf34c7c-1211-4c73-b292-3593cd582005, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hk4.xyttk.vip}}
+  - {name: 🇭🇰 HK_37 | 9.84Mb, server: hk4.xyttk.vip, port: 80, type: vmess, uuid: 5bf34c7c-1211-4c73-b292-3593cd582005, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hk4.xyttk.vip}}
+  - {name: guangzhoucm.cdn223.me, server: guangzhoucm.cdn223.me, port: 955, type: vmess, uuid: b815d9cf-eead-3fc1-8c27-9c1ff3962b69, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /hls, ws-headers: {Host: xingazhk1.xiaobaiyun.me}}
+  - {name: 🇭🇰 HK_1829, server: 118.107.244.112, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇭🇰 HK_1846, server: 118.107.244.114, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Relay_ |22.92Mb, server: ru.mooncloud.top, port: 8080, type: vmess, uuid: 00a356fc-71c7-4837-85ef-66a074a39530, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ru.mooncloud.top}}
+  - {name: 🇨🇳 TW_77 | 8.01Mb, server: tw3.mooncloud.top, port: 8080, type: vmess, uuid: 00a356fc-71c7-4837-85ef-66a074a39530, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: tw3.mooncloud.top}}
+proxy-groups:
