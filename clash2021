@@ -1,0 +1,234 @@
+proxies: 
+  - name: "Relay_🇨🇳CN-🇸🇬SG_1600"
+    type: vmess 
+    server: a83679f.gb.gladns.com
+    port: 3205
+    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0 
+    alterId: 1 
+    cipher: auto
+    tls: false 
+    ws-path: /t
+    network: ws
+
+  - name: "Relay_🇨🇳 CN-🇭🇰HK_2345"
+    type: vmess 
+    server: tjyd.v2cy.com
+    port: 80
+    uuid: 586fb889-61ee-42d9-b374-c1440b0a0664 
+    alterId: 1 
+    cipher: auto
+    tls: false 
+    ws-path: /
+    network: ws
+    ws-headers:
+      Host: dn-pd2hiel8.cn2.run.gxu.edu.cn
+
+  - name: "Relay_-🇸🇬SG_1712"
+    type: vmess 
+    server: a83679f.gb.gladns.com
+    port: 3205
+    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0 
+    alterId: 1 
+    cipher: auto
+    tls: false 
+    ws-path: /t
+    network: ws
+    ws-headers:
+      Host: a83679f.fm.huawei.com:53325
+
+  - name: "Relay_🇯🇵JP-🇹🇼TW_3216"
+    type: vmess 
+    server: a83679f.hf.gladns.com
+    port: 3306
+    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0 
+    alterId: 1 
+    cipher: auto
+    tls: false 
+    ws-path: /t
+    network: ws
+
+  - name: "Relay_🇯🇵 JP-🇹🇼TW_4045"
+    type: vmess 
+    server: a83679f.ha.gladns.com
+    port: 3306
+    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0 
+    alterId: 1 
+    cipher: auto
+    tls: false 
+    ws-path: /t
+    network: ws
+
+  - name: "Relay_-🇹🇼TW_1713"
+    type: vmess 
+    server: a83679f.rb.gladns.com
+    port: 80
+    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0 
+    alterId: 1 
+    cipher: auto
+    tls: false 
+    ws-path: /t
+    network: ws
+    ws-headers:
+      Host: a83679f.fm.huawei.com:53325
+
+  - name: "Relay_-🇩🇪DE_1720"
+    type: vmess 
+    server: 119.188.97.1
+    port: 80
+    uuid: e5c04139-0d1b-4d09-8718-78feeeaaa057 
+    alterId: 1 
+    cipher: auto
+    tls: false 
+    ws-path: /
+    network: ws
+    ws-headers:
+      Host: 003.cdn.8x.cx.hit.edu.cn
+
+  - name: "Relay_-🇹🇼TW_1721"
+    type: vmess 
+    server: a83679f.re.gladns.com
+    port: 80
+    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0 
+    alterId: 1 
+    cipher: auto
+    tls: false 
+    ws-path: /t
+    network: ws
+    ws-headers:
+      Host: a83679f.fm.huawei.com:53325
+
+  - name: "🇺🇸US_5319"
+    type: ss 
+    server: 154.17.2.130
+    port: 18334
+    cipher: chacha20-ietf-poly1305
+    password: "Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS" 
+
+  - name: "Relay_🇯🇵JP-🇯🇵JP_3479 |24.17Mb"
+    type: vmess 
+    server: jp06-vm0.ikuuu.casa
+    port: 444
+    uuid: 6857b85f-70d4-38c1-9b35-41787b72448e 
+    alterId: 1 
+    cipher: auto
+    tls: false 
+    ws-path: /hls/cctv5phd.m3u8
+    network: ws
+    ws-headers:
+      Host: jp06-vm0.ikuuu.casa
+
+  - name: "Relay_-🇹🇼TW_1732"
+    type: vmess 
+    server: a83679f.ra.gladns.com
+    port: 80
+    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0 
+    alterId: 1 
+    cipher: auto
+    tls: false 
+    ws-path: /t
+    network: ws
+    ws-headers:
+      Host: a83679f.fm.huawei.com:53325
+
+  - name: "🇺🇸"
+    type: ss 
+    server: 198.8.92.84
+    port: 40220
+    cipher: aes-256-gcm
+    password: "ugyBkSEFxVEmUYSHyvxmWNj9" 
+
+  - name: "Pool__311"
+    type: ss 
+    server: 82.102.26.117
+    port: 47121
+    cipher: aes-256-gcm
+    password: "CTK8GXFQgKYQErrghPJfZ6tk" 
+
+  - name: "Pool__859"
+    type: ss 
+    server: 82.102.26.117
+    port: 44236
+    cipher: aes-256-gcm
+    password: "FWrXcxPZjJxAN89xLgqY3Acp" 
+
+  - name: "185.108.106.51:31764"
+    type: ss 
+    server: 185.108.106.51
+    port: 31764
+    cipher: aes-256-gcm
+    password: "YgusH2MWA8PWc3p2VDsR7AVv" 
+
+  - name: "185.108.106.51:33992"
+    type: ss 
+    server: 185.108.106.51
+    port: 33992
+    cipher: aes-256-gcm
+    password: "8n6pwAcrrv2pj6tFY2p3TbQ6" 
+
+  - name: "🇫🇷+Pool_🇫🇷FR_1362"
+    type: ss 
+    server: 185.108.106.51
+    port: 31944
+    cipher: aes-256-gcm
+    password: "aYNeKDMzYQYw4KbUbJA8Wszq" 
+
+  - name: "Relay_-🇳🇱NL_1677"
+    type: ss 
+    server: nl1.hiout.me
+    port: 36402
+    cipher: aes-256-gcm
+    password: "qLVVsktJzWpi" 
+
+  - name: "Pool__700"
+    type: ss 
+    server: 85.10.50.164
+    port: 40093
+    cipher: aes-256-gcm
+    password: "x23Z4LGkGDkThZ9Kaz4DURQp" 
+
+  - name: "Relay_-🇮🇳IN_925"
+    type: vmess 
+    server: blx.lt.airnode.xyz
+    port: 14033
+    uuid: 26015519-8ecb-3473-81f2-0e2bee1c0963 
+    alterId: 1 
+    cipher: auto
+    tls: false 
+    ws-path: /ftq
+    network: ws
+    ws-headers:
+      Host: blx.lt.airnode.xyz
+
+  - name: "Relay_-🇺🇸US_931"
+    type: vmess 
+    server: blx.lt.airnode.xyz
+    port: 14007
+    uuid: 26015519-8ecb-3473-81f2-0e2bee1c0963 
+    alterId: 1 
+    cipher: auto
+    tls: false 
+    ws-path: /ftq
+    network: ws
+    ws-headers:
+      Host: blx.lt.airnode.xyz
+
+  - name: "Pool__645"
+    type: ss 
+    server: 207.244.67.149
+    port: 50168
+    cipher: aes-256-gcm
+    password: "WCuz7yrfZSCQQXSNrtGPz2HT" 
+
+  - name: "Pool_🇺🇸US_5595"
+    type: ss 
+    server: 198.8.92.84
+    port: 38742
+    cipher: aes-256-gcm
+    password: "DKXfWwc4ebscpXTKpbt85rSH" 
+
+  - name: "Pool_🇺🇸US_5416"
+    type: ss 
+    server: 198.147.22.87
+    port: 32558
+    cipher: aes-256-gcm
+    password: "gJYzm3TLbdL495ryQptaJXQk" 
