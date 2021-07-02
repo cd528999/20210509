@@ -1,0 +1,247 @@
+proxies: 
+  - name: "Pool_🇺🇸US_4977+|16.00Mb"
+    type: ss 
+    server: 198.147.22.87
+    port: 40093
+    cipher: aes-256-gcm
+    password: "x23Z4LGkGDkThZ9Kaz4DURQp" 
+
+  - name: "Relay_🇯🇵JP-🇯🇵JP_3405 |17.13Mb"
+    type: vmess 
+    server: jp06-vm0.ikuuu.casa
+    port: 446
+    uuid: d268ad44-928d-3fc8-aa1e-a88998bedcc6 
+    alterId: 1 
+    cipher: auto
+    tls: false 
+    ws-path: /hls/cctv5phd.m3u8
+    network: ws
+    ws-headers:
+      Host: jp06-vm0.ikuuu.casa
+
+  - name: "Pool_🇺🇸US_5055+|18.90Mb"
+    type: ss 
+    server: 198.147.22.87
+    port: 35200
+    cipher: aes-256-gcm
+    password: "WBLAbN6AwtV5avBx73hFRLB3" 
+
+  - name: "adi|0622+-+US+40"
+    type: ss 
+    server: 23.82.11.49
+    port: 50168
+    cipher: aes-256-gcm
+    password: "WCuz7yrfZSCQQXSNrtGPz2HT" 
+
+  - name: "Pool_🇫🇷FR_2683+|14.06Mb"
+    type: ss 
+    server: 185.108.106.140
+    port: 40093
+    cipher: aes-256-gcm
+    password: "x23Z4LGkGDkThZ9Kaz4DURQp" 
+
+  - name: "Relay_🇯🇵JP-🇯🇵JP_3408 |19.74Mb"
+    type: vmess 
+    server: jp06-vm0.ikuuu.casa
+    port: 447
+    uuid: 2940454d-2782-31f7-86f6-99018118743a 
+    alterId: 1 
+    cipher: auto
+    tls: false 
+    ws-path: /hls/cctv5phd.m3u8
+    network: ws
+    ws-headers:
+      Host: jp06-vm0.ikuuu.casa
+
+  - name: "Pool_🇫🇷FR_1639"
+    type: ss 
+    server: 185.108.106.53
+    port: 33992
+    cipher: aes-256-gcm
+    password: "8n6pwAcrrv2pj6tFY2p3TbQ6" 
+
+  - name: "Relay_🇯🇵JP-🇯🇵JP_3413 |11.47Mb"
+    type: vmess 
+    server: jp02-vm0.ikuuu.casa
+    port: 444
+    uuid: 6857b85f-70d4-38c1-9b35-41787b72448e 
+    alterId: 1 
+    cipher: auto
+    tls: false 
+    ws-path: /hls/cctv5phd.m3u8
+    network: ws
+    ws-headers:
+      Host: jp02-vm0.ikuuu.casa
+
+  - name: "_43+|16.53Mb"
+    type: ss 
+    server: 185.108.106.53
+    port: 47644
+    cipher: aes-256-gcm
+    password: "LxzfAVfKbPqQx4SDCat7EJyE" 
+
+  - name: "Pool_🇫🇷FR_2483+|10.61Mb"
+    type: ss 
+    server: 185.108.106.140
+    port: 39772
+    cipher: aes-256-gcm
+    password: "CUndSZnYsPKcu6Kj8THVMBHD" 
+
+  - name: "Pool_🇺🇸US_5034+|17.61Mb"
+    type: ss 
+    server: 198.147.22.87
+    port: 31572
+    cipher: aes-256-gcm
+    password: "n8w4StnbVD9dmXYn4Ajt87EA" 
+
+  - name: "Relay_🇯🇵JP-🇯🇵JP_3404 |17.41Mb"
+    type: vmess 
+    server: jp04-vm0.ikuuu.casa
+    port: 446
+    uuid: d268ad44-928d-3fc8-aa1e-a88998bedcc6 
+    alterId: 1 
+    cipher: auto
+    tls: false 
+    ws-path: /hls/cctv5phd.m3u8
+    network: ws
+    ws-headers:
+      Host: jp04-vm0.ikuuu.casa
+
+  - name: "Relay_-🇹🇼TW_1713"
+    type: vmess 
+    server: a83679f.rb.gladns.com
+    port: 80
+    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0 
+    alterId: 1 
+    cipher: auto
+    tls: false 
+    ws-path: /t
+    network: ws
+    ws-headers:
+      Host: a83679f.fm.huawei.com:53325
+
+  - name: "Relay_🇯🇵JP-🇯🇵JP_3407 | 9.49Mb"
+    type: vmess 
+    server: jp02-vm0.ikuuu.casa
+    port: 446
+    uuid: d268ad44-928d-3fc8-aa1e-a88998bedcc6 
+    alterId: 1 
+    cipher: auto
+    tls: false 
+    ws-path: /hls/cctv5phd.m3u8
+    network: ws
+    ws-headers:
+      Host: jp02-vm0.ikuuu.casa
+
+  - name: "adi|0622+-+US+17"
+    type: ss 
+    server: 66.115.175.37
+    port: 50168
+    cipher: aes-256-gcm
+    password: "WCuz7yrfZSCQQXSNrtGPz2HT" 
+
+  - name: "Relay_-🇹🇼TW_1721"
+    type: vmess 
+    server: a83679f.re.gladns.com
+    port: 80
+    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0 
+    alterId: 1 
+    cipher: auto
+    tls: false 
+    ws-path: /t
+    network: ws
+    ws-headers:
+      Host: a83679f.fm.huawei.com:53325
+
+  - name: "Relay_🇳🇱NL-🇳🇱NL_3807 | 8.18Mb"
+    type: vmess 
+    server: hl03.xqkj.cloud
+    port: 1093
+    uuid: 21375aab-747d-46ec-9f07-e9d1d9727d35 
+    alterId: 1 
+    cipher: auto
+    tls: false 
+    ws-path: /
+    network: ws
+
+  - name: "Relay_🇸🇬SG-🇸🇬SG_4251 |36.28Mb"
+    type: vmess 
+    server: sg01.xqkj.cloud
+    port: 1081
+    uuid: 21375aab-747d-46ec-9f07-e9d1d9727d35 
+    alterId: 1 
+    cipher: auto
+    tls: false 
+    ws-path: /
+    network: ws
+
+  - name: "Relay_🇯🇵JP-🇯🇵JP_3412 | 9.66Mb"
+    type: vmess 
+    server: jp06-vm0.ikuuu.casa
+    port: 444
+    uuid: 6857b85f-70d4-38c1-9b35-41787b72448e 
+    alterId: 1 
+    cipher: auto
+    tls: false 
+    ws-path: /hls/cctv5phd.m3u8
+    network: ws
+    ws-headers:
+      Host: jp06-vm0.ikuuu.casa
+
+  - name: "Relay_🇯🇵JP-🇯🇵JP_3409 | 8.27Mb"
+    type: vmess 
+    server: jp02-vm0.ikuuu.casa
+    port: 447
+    uuid: 2940454d-2782-31f7-86f6-99018118743a 
+    alterId: 1 
+    cipher: auto
+    tls: false 
+    ws-path: /hls/cctv5phd.m3u8
+    network: ws
+    ws-headers:
+      Host: jp02-vm0.ikuuu.casa
+
+  - name: "Relay_🇯🇵JP-🇯🇵JP_3410 |30.85Mb"
+    type: vmess 
+    server: jp04-vm0.ikuuu.casa
+    port: 444
+    uuid: 6857b85f-70d4-38c1-9b35-41787b72448e 
+    alterId: 1 
+    cipher: auto
+    tls: false 
+    ws-path: /hls/cctv5phd.m3u8
+    network: ws
+    ws-headers:
+      Host: jp04-vm0.ikuuu.casa
+
+  - name: "Relay_🇺🇸US-🇺🇸US_5351 |29.42Mb"
+    type: vmess 
+    server: us07.xqkj.cloud
+    port: 1037
+    uuid: 21375aab-747d-46ec-9f07-e9d1d9727d35 
+    alterId: 1 
+    cipher: auto
+    tls: false 
+    ws-path: /
+    network: ws
+
+  - name: "adi|0622+-+英国+17"
+    type: ss 
+    server: 81.19.208.107
+    port: 50168
+    cipher: aes-256-gcm
+    password: "WCuz7yrfZSCQQXSNrtGPz2HT" 
+
+  - name: "Pool_🇺🇸US_4707"
+    type: ss 
+    server: 198.147.22.87
+    port: 32558
+    cipher: aes-256-gcm
+    password: "gJYzm3TLbdL495ryQptaJXQk" 
+
+  - name: "Pool_🇺🇸US_4889+|16.48Mb"
+    type: ss 
+    server: 198.147.22.87
+    port: 33998
+    cipher: aes-256-gcm
+    password: "NHwQTPLCfaTMSqTnU3mjcSxe" 
