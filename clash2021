@@ -1,0 +1,126 @@
+proxies: 
+  - name: "🇭🇰HK_2108"
+    type: vmess 
+    server: 52.184.27.19
+    port: 80
+    uuid: de91a375-9f12-37bc-b4af-50b074f1458b 
+    alterId: 1 
+    cipher: auto
+    tls: false 
+    ws-path: /
+    network: ws
+
+  - name: "154.17.2.95:18334"
+    type: ss 
+    server: 154.17.2.95
+    port: 18334
+    cipher: chacha20-ietf-poly1305
+    password: "Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS" 
+
+  - name: "Pool_🇫🇷FR_1400"
+    type: ss 
+    server: 185.108.106.53
+    port: 33992
+    cipher: aes-256-gcm
+    password: "8n6pwAcrrv2pj6tFY2p3TbQ6" 
+
+  - name: "Pool_🇫🇷FR_1377"
+    type: ss 
+    server: 185.108.106.140
+    port: 40093
+    cipher: aes-256-gcm
+    password: "x23Z4LGkGDkThZ9Kaz4DURQp" 
+
+  - name: "Pool_🇨🇦CA_554"
+    type: ss 
+    server: 217.138.200.189
+    port: 50168
+    cipher: aes-256-gcm
+    password: "WCuz7yrfZSCQQXSNrtGPz2HT" 
+
+  - name: "154.17.1.245:18334"
+    type: ss 
+    server: 154.17.1.245
+    port: 18334
+    cipher: chacha20-ietf-poly1305
+    password: "Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS" 
+
+  - name: "154.17.2.211:18332"
+    type: ss 
+    server: 154.17.2.211
+    port: 18332
+    cipher: chacha20-ietf-poly1305
+    password: "ZECSlaTZea5jFO736FA3Ry3DaXRA2qNx0pceYDzKCuYS8gl3B4p8InwyDCOSx9" 
+
+  - name: "🇭🇰HK_2105"
+    type: vmess 
+    server: 52.175.72.201
+    port: 80
+    uuid: de91a375-9f12-37bc-b4af-50b074f1458b 
+    alterId: 1 
+    cipher: auto
+    tls: false 
+    ws-path: /
+    network: ws
+    ws-headers:
+      Host: pull.free.video.10010.com
+
+  - name: "Pool_🇫🇷FR_1530"
+    type: ss 
+    server: 185.108.106.140
+    port: 39772
+    cipher: aes-256-gcm
+    password: "CUndSZnYsPKcu6Kj8THVMBHD" 
+
+  - name: "Pool_🇬🇧GB_1728"
+    type: ss 
+    server: 81.19.208.107
+    port: 50168
+    cipher: aes-256-gcm
+    password: "WCuz7yrfZSCQQXSNrtGPz2HT" 
+
+  - name: "Pool_🇨🇭CH_686"
+    type: ss 
+    server: 84.17.53.223
+    port: 40093
+    cipher: aes-256-gcm
+    password: "x23Z4LGkGDkThZ9Kaz4DURQp" 
+
+  - name: "Pool_🇺🇸US_4887+|20.94Mb"
+    type: ss 
+    server: 198.8.92.84
+    port: 40093
+    cipher: aes-256-gcm
+    password: "x23Z4LGkGDkThZ9Kaz4DURQp" 
+
+  - name: "🇺🇸 US_20"
+    type: vmess 
+    server: euserv18p.ezddns.tk
+    port: 80
+    uuid: 344c0b7d-2c35-4c95-8481-e2fc3c456a06 
+    alterId: 1 
+    cipher: auto
+    tls: false 
+    ws-path: /audio.mp3
+    network: ws
+
+  - name: "89.46.223.239:39772"
+    type: ss 
+    server: 89.46.223.239
+    port: 39772
+    cipher: aes-256-gcm
+    password: "CUndSZnYsPKcu6Kj8THVMBHD" 
+
+  - name: "198.147.22.87:33998"
+    type: ss 
+    server: 198.147.22.87
+    port: 33998
+    cipher: aes-256-gcm
+    password: "NHwQTPLCfaTMSqTnU3mjcSxe" 
+
+  - name: "198.8.92.84:49396"
+    type: ss 
+    server: 198.8.92.84
+    port: 49396
+    cipher: aes-256-gcm
+    password: "BdRWC38L5JUDMTYNNxJGcUwB" 
