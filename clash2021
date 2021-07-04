@@ -1,0 +1,113 @@
+proxies: 
+  - name: "Pool__189+|+9.75Mb"
+    type: ss 
+    server: 82.102.26.117
+    port: 44236
+    cipher: aes-256-gcm
+    password: "FWrXcxPZjJxAN89xLgqY3Acp" 
+
+  - name: "Pool_🇫🇷FR_2644+|18.93Mb"
+    type: ss 
+    server: 185.108.106.140
+    port: 40093
+    cipher: aes-256-gcm
+    password: "x23Z4LGkGDkThZ9Kaz4DURQp" 
+
+  - name: "185.108.106.140:39772"
+    type: ss 
+    server: 185.108.106.140
+    port: 39772
+    cipher: aes-256-gcm
+    password: "CUndSZnYsPKcu6Kj8THVMBHD" 
+
+  - name: "185.108.106.53:33992"
+    type: ss 
+    server: 185.108.106.53
+    port: 33992
+    cipher: aes-256-gcm
+    password: "8n6pwAcrrv2pj6tFY2p3TbQ6" 
+
+  - name: "81.19.208.107:50168"
+    type: ss 
+    server: 81.19.208.107
+    port: 50168
+    cipher: aes-256-gcm
+    password: "WCuz7yrfZSCQQXSNrtGPz2HT" 
+
+  - name: "🇭🇺HU_3091 | 7.25Mb"
+    type: vmess 
+    server: 185.225.69.134
+    port: 45081
+    uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9 
+    alterId: 1 
+    cipher: auto
+
+  - name: "🇺🇸+US_77"
+    type: ss 
+    server: 143.244.60.164
+    port: 50168
+    cipher: aes-256-gcm
+    password: "WCuz7yrfZSCQQXSNrtGPz2HT" 
+
+  - name: "Pool__654+|+9.32Mb"
+    type: ss 
+    server: 185.108.106.152
+    port: 35294
+    cipher: aes-256-gcm
+    password: "J9Y2ncrdPEC38gwydNFFGBna" 
+
+  - name: "Pool_🇺🇸US_4887+|20.94Mb"
+    type: ss 
+    server: 198.8.92.84
+    port: 40093
+    cipher: aes-256-gcm
+    password: "x23Z4LGkGDkThZ9Kaz4DURQp" 
+
+  - name: "🇮🇳+IN_25+|+8.26Mb"
+    type: ss 
+    server: 137.59.52.107
+    port: 39772
+    cipher: aes-256-gcm
+    password: "CUndSZnYsPKcu6Kj8THVMBHD" 
+
+  - name: "Pool_🇺🇸US_162"
+    type: ss 
+    server: 198.147.22.87
+    port: 40093
+    cipher: aes-256-gcm
+    password: "x23Z4LGkGDkThZ9Kaz4DURQp" 
+
+  - name: "🇺🇸US_61"
+    type: ss 
+    server: 154.17.2.109
+    port: 18335
+    cipher: chacha20-ietf-poly1305
+    password: "l3Y9yKCBaT5SnpFFOe834yqIaXwSpRxz3l7D3Aua82ZgcSNZDCO6AexYDCE0Rj" 
+
+  - name: "Pool_🇮🇳IN_53"
+    type: ss 
+    server: 137.59.52.107
+    port: 33992
+    cipher: aes-256-gcm
+    password: "8n6pwAcrrv2pj6tFY2p3TbQ6" 
+
+  - name: "🇺🇸US_163"
+    type: ss 
+    server: 154.17.1.245
+    port: 18334
+    cipher: chacha20-ietf-poly1305
+    password: "Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS" 
+
+  - name: "89.46.223.239:39772"
+    type: ss 
+    server: 89.46.223.239
+    port: 39772
+    cipher: aes-256-gcm
+    password: "CUndSZnYsPKcu6Kj8THVMBHD" 
+
+  - name: "198.147.22.87:33998"
+    type: ss 
+    server: 198.147.22.87
+    port: 33998
+    cipher: aes-256-gcm
+    password: "NHwQTPLCfaTMSqTnU3mjcSxe" 
