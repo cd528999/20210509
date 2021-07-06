@@ -1,0 +1,76 @@
+proxies: 
+  - name: "217.138.200.189:50168"
+    type: ss 
+    server: 217.138.200.189
+    port: 50168
+    cipher: aes-256-gcm
+    password: "WCuz7yrfZSCQQXSNrtGPz2HT" 
+
+  - name: "143.244.60.164:50168"
+    type: ss 
+    server: 143.244.60.164
+    port: 50168
+    cipher: aes-256-gcm
+    password: "WCuz7yrfZSCQQXSNrtGPz2HT" 
+
+  - name: "185.108.106.140:40093"
+    type: ss 
+    server: 217.138.200.189
+    port: 40093
+    cipher: aes-256-gcm
+    password: "x23Z4LGkGDkThZ9Kaz4DURQp" 
+
+  - name: "185.108.106.53:33992"
+    type: ss 
+    server: 217.138.200.189
+    port: 33992
+    cipher: aes-256-gcm
+    password: "8n6pwAcrrv2pj6tFY2p3TbQ6" 
+
+  - name: "137.59.52.107:39772"
+    type: ss 
+    server: 217.138.200.189
+    port: 39772
+    cipher: aes-256-gcm
+    password: "CUndSZnYsPKcu6Kj8THVMBHD" 
+
+  - name: "🇺🇸 US_21"
+    type: vmess 
+    server: 23.224.30.36
+    port: 443
+    uuid: e4494518-74e8-4d6b-942a-6b332cce09ef 
+    alterId: 1 
+    cipher: auto
+    tls: true 
+    ws-path: path
+    network: ws
+    ws-headers:
+      Host: www.01902367.xyz
+
+  - name: "66.55.148.42:810"
+    type: ss 
+    server: 66.55.148.42
+    port: 810
+    cipher: chacha20-ietf-poly1305
+    password: "G!yBwPWH3Vao" 
+
+  - name: "51.195.62.220:808"
+    type: ss 
+    server: 51.195.62.220
+    port: 808
+    cipher: chacha20-ietf-poly1305
+    password: "G!yBwPWH3Vao" 
+
+  - name: "51.89.99.59:800"
+    type: ss 
+    server: 51.89.99.59
+    port: 800
+    cipher: chacha20-ietf-poly1305
+    password: "G!yBwPWH3Vao" 
+
+  - name: "84.17.35.78:33992"
+    type: ss 
+    server: 84.17.35.78
+    port: 33992
+    cipher: aes-256-gcm
+    password: "8n6pwAcrrv2pj6tFY2p3TbQ6" 
