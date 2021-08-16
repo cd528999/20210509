@@ -1,0 +1,54 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+proxies:
+  - {name: 185.225.28.245:33992, server: 185.225.28.245, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 198.147.22.87:35200, server: 198.147.22.87, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
+  - {name: 185.225.28.67:31944, server: 185.225.28.67, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 89.187.163.210:35294, server: 89.187.163.210, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 31.169.121.3:38742, server: 31.169.121.3, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 37.19.220.196:33998, server: 37.19.220.196, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 194.41.112.28:39772, server: 194.41.112.28, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 194.150.167.28:33992, server: 194.150.167.28, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 194.150.167.28:33992 2, server: 194.150.167.28, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 45.83.91.133:40093, server: 45.83.91.133, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 42.0.30.164:44236, server: 42.0.30.164, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 5.189.202.16:50695, server: 5.189.202.16, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
+  - {name: 84.17.58.205:37473, server: 84.17.58.205, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 45.248.76.171:33992, server: 45.248.76.171, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 91.90.123.187:38742, server: 91.90.123.187, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 5.189.202.16:44745, server: 5.189.202.16, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC}
+  - {name: 217.146.82.83:31572, server: 217.146.82.83, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 185.108.106.74:39772, server: 185.108.106.74, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 89.187.187.149:33992, server: 89.187.187.149, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 199.10.64.131:39772, server: 199.10.64.131, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 91.219.215.69:38742, server: 91.219.215.69, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: ss6.ssrsub.one:2443, server: ss6.ssrsub.one, port: 2443, type: ss, cipher: aes-128-gcm, password: https://dlj.tf/ssrsub}
+  - {name: 198.147.22.83:33992, server: 198.147.22.83, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 193.29.106.5:39772, server: 193.29.106.5, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 185.153.151.118:39772, server: 185.153.151.118, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 195.181.171.233:39772, server: 195.181.171.233, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 37.120.221.5:40093, server: 37.120.221.5, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇨🇳 馃嚚馃嚦 CN_14, server: gggz.quickairport.top, port: 21827, type: vmess, uuid: 943c710e-273c-4a48-b52c-8ab43049a08b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: gggz.quickairport.top}}
+  - {name: 45.9.251.163:33992, server: 45.9.251.163, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 37.10.114.70:39772, server: 37.10.114.70, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 37.120.221.5:31944, server: 37.120.221.5, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: ss6.ssrsub.one:9443, server: ss6.ssrsub.one, port: 9443, type: ss, cipher: aes-128-gcm, password: suo.yt/ssrsub}
+  - {name: 81.19.208.68:35294, server: 81.19.208.68, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 198.8.92.84:40220, server: 198.8.92.84, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: 217.138.219.229:33992, server: 217.138.219.229, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 81.19.223.189:31764, server: 81.19.223.189, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 89.37.95.15:37473, server: 89.37.95.15, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 37.120.144.245:33992, server: 37.120.144.245, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 91.219.215.69:31944, server: 91.219.215.69, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 91.90.123.115:34687, server: 91.90.123.115, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: 91.90.123.115:46642, server: 91.90.123.115, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: 馃嚞馃嚙 GB_27, server: ukdll.52jjyun.top, port: 80, type: vmess, uuid: 90cab127-9c02-46f2-8642-c7d230c88355, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: ukdll.52jjyun.top}}
+  - {name: 91.219.215.69:31944 2, server: 91.219.215.69, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 196.244.191.45:31944, server: 196.244.191.45, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 5.154.174.213:40093, server: 5.154.174.213, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 89.187.163.212:33992, server: 89.187.163.212, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+proxy-groups:
